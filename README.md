@@ -1,15 +1,12 @@
-Here, I've shared my .tex code for creating a poster.
-I have used "tikz" library and I have used  Overleaf LaTeX editor.
+Here, I've shared my LaTex code for creating a poster from scratch.
+
+I have used "tikz" library and I have used  Overleaf LaTeX editor. 
+
 
 \usepackage{tikz}
 
-\usepackage{geometry}
-
-\geometry{margin=0cm} % Full page layout
-
-\usetikzlibrary{calc}
-
-\usepackage{lmodern} 
 
 
-[View PDF](poster.pdf)
+The following link is my own poster created by this code.
+
+[View poster](poster.pdf)
