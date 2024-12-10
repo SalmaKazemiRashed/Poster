@@ -1,6 +1,6 @@
 Here, I've shared my LaTex code for creating a poster from scratch.
 
-I have used "tikz" library and I have used  Overleaf LaTeX editor. 
+I have used "tikz" library and Overleaf LaTeX editor. 
 
 
 \usepackage{tikz}
