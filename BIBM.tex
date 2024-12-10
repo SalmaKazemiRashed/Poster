@@ -1,3 +1,4 @@
+%Libraries
 \documentclass[a0paper,portrait]{article}
 \usepackage{tikz}
 \usepackage{geometry}
@@ -35,7 +36,7 @@
     
     % Add a logo to the left side of the title
     \node[anchor=east] at (logoloc) 
-        {\includegraphics[width=9cm]{logo.png}}; % Adjust logo size as needed
+        {\includegraphics[width=9cm]{Figs/logo.png}}; % Adjust logo size as needed
 
     %Title
     \node[cyan!70!white, font=\fontsize{74}{70}\bfseries, align=center] 
@@ -102,25 +103,25 @@
 
 
      \node[anchor=east] at (cellloc)  [xshift=0cm, yshift=-2cm]
-        {\includegraphics[ width=10cm]{nuclei.png}};
+        {\includegraphics[ width=10cm]{Figs/nuclei.png}};
      \node[anchor=east] at (cellloc) [xshift=11cm, yshift=-2cm]
-        {\includegraphics[ width=10cm]{cytosol.png}};
+        {\includegraphics[ width=10cm]{Figs/cytosol.png}};
 
      \node[anchor=east] at (cellloc) [xshift=22cm, yshift=-2cm]
-        {\includegraphics[ width=10cm]{mitho.png}};
+        {\includegraphics[ width=10cm]{Figs/mitho.png}};
     
 
 
     %cartoons
     \node[anchor=east] at (cellloc)  [xshift=-2.5cm, yshift=-10cm]
-        {\includegraphics[ width=5cm]{swell_nuclei.png}};
+        {\includegraphics[ width=5cm]{Figs/swell_nuclei.png}};
 
      \node[anchor=east] at (cellloc)  [xshift=8.5cm, yshift=-10cm]
-        {\includegraphics[ width=5cm]{LMP.png}};
+        {\includegraphics[ width=5cm]{Figs/LMP.png}};
  
 
      \node[anchor=east] at (cellloc)  [xshift=19.5cm, yshift=-10cm]
-        {\includegraphics[ width=5cm]{mitho_cartoon.png}};
+        {\includegraphics[ width=5cm]{Figs/mitho_cartoon.png}};
     % Add a nuclei to here
  
 %Text for cell death  
@@ -150,7 +151,7 @@
 
  \begin{scope}
         \clip (30.5,-29) circle(9cm);
-        \node at (30.5,-29) {\includegraphics[width=16cm]{cell_death.png}};
+        \node at (30.5,-29) {\includegraphics[width=16cm]{Figs/cell_death.png}};
     \end{scope}
 
 %second circle
@@ -174,7 +175,7 @@
   
 \begin{scope}
         \clip (43.5,-37) circle(7cm);
-        \node at (43.5,-37) {\includegraphics[width=16cm]{Annotation.png}};
+        \node at (43.5,-37) {\includegraphics[width=16cm]{Figs/Annotation.png}};
     \end{scope}
 
 
@@ -197,7 +198,7 @@
   
 \begin{scope}
         \clip (44.5,-50) circle(6cm);
-        \node at (44.5,-50) {\includegraphics[clip,trim=0cm 0cm 0cm 0cm,width=12cm]{UNet.png}};
+        \node at (44.5,-50) {\includegraphics[clip,trim=0cm 0cm 0cm 0cm,width=12cm]{Figs/UNet.png}};
     \end{scope}
 
 
@@ -219,7 +220,7 @@
   
 \begin{scope}
         \clip (44.5,-65) circle(7cm);
-        \node at (44.5,-65) {\includegraphics[clip,trim=2cm 0cm 0cm 0cm,width=16cm]{healthy.png}};
+        \node at (44.5,-65) {\includegraphics[clip,trim=2cm 0cm 0cm 0cm,width=16cm]{Figs/healthy.png}};
     \end{scope}
 
 
@@ -240,7 +241,7 @@
   
 \begin{scope}
         \clip (44.5,-84) circle(7cm);
-        \node at (44.5,-84) {\includegraphics[clip,trim=2cm 0cm 0cm 0cm,width=18cm]{genome.png}};
+        \node at (44.5,-84) {\includegraphics[clip,trim=2cm 0cm 0cm 0cm,width=18cm]{Figs/genome.png}};
     \end{scope}
 
 %6th circle
@@ -259,7 +260,7 @@
   
 \begin{scope}
         \clip (27.5,-102) circle(6cm);
-        \node at (27.5,-102) {\includegraphics[clip,trim=0cm 0cm 0cm 0cm,width=18cm]{annot.png}};
+        \node at (27.5,-102) {\includegraphics[clip,trim=0cm 0cm 0cm 0cm,width=18cm]{Figs/annot.png}};
     \end{scope}
 
 
@@ -287,7 +288,7 @@
 
 
      \node[anchor=east] at (cellloc)  [xshift=23cm, yshift=-35cm]
-        {\includegraphics[ width=30cm]{dataset_new.png}};
+        {\includegraphics[ width=30cm]{Figs/dataset_new.png}};
 
 
 \node[blue
@@ -366,7 +367,7 @@ $IOU(A,B) = \dfrac {A \cap B }{A\cup B}$
 
 
      \node[anchor=east] at (cellloc)  [xshift=68cm, yshift=-18cm]
-        {\includegraphics[ clip,trim=1cm 0cm 3cm 0cm,width=21cm]{F1_score_val_test.png}};
+        {\includegraphics[ clip,trim=1cm 0cm 3cm 0cm,width=21cm]{Figs/F1_score_val_test.png}};
 
     %Results
    \node[brown!60!white, font=\fontsize{54}{30}\bfseries, align=center] at (center) [xshift=29cm,yshift=-50cm]  {Genome-wide screen};
@@ -380,11 +381,11 @@ The best model was applied to the full dataset, and the nuclei count and area fo
 };
     
      \node[anchor=east] at (cellloc)  [xshift=68cm, yshift=-39cm]
-        {\includegraphics[ clip,trim=1cm 0cm 3cm 0cm,width=21cm]{Nuclei_count.eps}};
+        {\includegraphics[ clip,trim=1cm 0cm 3cm 0cm,width=21cm]{Figs/Nuclei_count.eps}};
 
         
      \node[anchor=east] at (cellloc)  [xshift=68cm, yshift=-52cm]
-        {\includegraphics[ clip,trim=1cm 0cm 3cm 0cm,width=21cm]{Nuclei_area.eps}};
+        {\includegraphics[ clip,trim=1cm 0cm 3cm 0cm,width=21cm]{Figs/Nuclei_area.eps}};
 
 
   %Results
