@@ -10,3 +10,6 @@ I have used "tikz" library and Overleaf LaTeX editor.
 The following link is my own poster created by this code.
 
 [View poster](poster.pdf)
+
+[View paper](https://ieeexplore.ieee.org/abstract/document/10822022)
+
